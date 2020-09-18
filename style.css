@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding : 40px;
+}
+
+.form-details{
+    width : 50%;
+    margin: 10px auto;
+}
+
+.heading {
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    border-width: 50% !important;
+    width: 50%;
+    margin: 5px auto;
+    color : white;
+}
+
+
+
+input[type="text"]{
+  
+    padding: 25px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+button#button-addon2 {
+    font-weight: 600;
+    padding: 5px 30px;
+    border-radius: 0px 10px 10px 0px;
+    background-image: linear-gradient(45deg, black, transparent);
+}
+
+.hide-section{
+    color:white;
+    margin-top: 50px;
+}
+
+.weather-icon{
+    margin-top: 20px;
+    height : 100px;
+    width : 100px;
+}
+
+#weather-details{
+    margin-top: 50px;
+}

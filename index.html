@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application..</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="heading text-center">Know Weather</h1>
+        <br>
+
+        <div class="input-group mb-3 form-details">
+            <input id="city-value" type="text" class="form-control" placeholder="Enter a Location for Weather " aria-label="city" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" id="button-addon2">SUBMIT</button>
+            </div>
+          </div>       
+    </div>
+
+    <div class="container hide-section">
+        <div id="weather-icon"></div>
+        <div class="location" id="location">
+            <h1 class="text-center" id="city"></h1>
+            <h4 class="text-center" id="day"></h4>
+        </div>
+        <div class="weather-details" id="weather-details">
+            <h1 class="text-center" id="temperature"></h1>
+            <h4 class="text-center" id="weather"></h4>
+            <h4 class="text-center" id="description"></h4>
+        </div>
+    </div>
+
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
